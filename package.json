@@ -1,0 +1,20 @@
+{
+	"name": "binpip",
+	"version": "0.0.1",
+	"description": "The DogeCoin redistribution system",
+	"author": "Doges",
+	"private": true,
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+	"test": "make test"
+	},
+	"dependencies": {
+		"express": "~3.3.4",
+		"jade": "~0.34.1",
+		"mongoose": "~3.8.0",
+		"mocha": "~1.14.0",
+		"chai": "~1.8.1",
+		"should": "~2.1.0"
+	}
+}
