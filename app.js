@@ -4,7 +4,7 @@ console.log('App - Start');
 var path = require('path');
 var express = require('express');
 var http = require('http');
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 
 // main config
 var app = express();
