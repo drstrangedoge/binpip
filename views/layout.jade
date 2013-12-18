@@ -11,11 +11,21 @@ html(lang="en-us")
 		link(rel='shortcut icon', href='/favicon.ico', type='image/x-icon')
 		link(rel='icon', href='/favicon.ico', type='image/x-icon')
 
-		link(href='css/uikit.css', rel='stylesheet')
-		link(href='css/main.css', rel='stylesheet')
+		link(href='css/uikit.almost-flat.min.css', rel='stylesheet')
+		// link(href='css/main.css', rel='stylesheet')
 
 		script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
-		script(src='//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js')
+		script(src='js/uikit.min.js')
 
 	body
+		nav.uk-navbar
+			a(href="#").uk-navbar-brand DogeCoin Redistribution
+			ul.uk-navbar-nav
+				li.uk-active
+					a(href="#") Much
+				li
+					a(href="#") Such
+				li.uk-parent
+					a(href="#") WOW!
+		br
 		block content
